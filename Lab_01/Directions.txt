@@ -1,0 +1,24 @@
+Write a modularized, menu-driven program to read a file with the unknown number of records.
+• The input file has an unknown number of records of inventory items (may be empty); one record per line in the 
+    following order: item ID, item name (one word), quantity on hand, and a price
+• All fields in the input file are separated by a tab ('\t') or a blank ( up to you)
+• All items are unique
+• Item Id and name do not require error checking
+  - Create a menu (use a switch statement) which allows to 
+  - print the inventory unsorted
+  - print the inventory sorted in ascending order; you should allow a user sort by any field: item ID, item name 
+      (one word), quantity on hand, or price. Write one function, that can sort by any field using array of pointers. 
+      Do not copy and paste sort code five times into the same function. Bubble sort is the easiest to modify.
+  - search for an item by ID or name; a user should be able to enter the name of the item using any case, (for 
+      example, sTRolleR). You may wish to store items in all lower/upper case to expedite the search. 
+  - print a report with the following details
+      • number of unique items in the inventor
+      • the total worth of the inventory and the total count of all items in the inventory
+  - quit the program
+• A user should be able to run many as many times as a user wants
+• Use arrav of structs if vou do not know how to write classes vet
+• Thoroughly test your program. Your grade partially depends on the quality of your test data.
+• This a and all other programs in this course must comply with the Guidelines and Standards posted under Resources
+• Clearlv label the output
+Record sample:
+997196478 StroLLer 25 134.78
