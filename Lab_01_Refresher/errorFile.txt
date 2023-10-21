@@ -1,0 +1,4 @@
+1228 apple 1 -1
+5765tyyti strudel -5 10.5
+7890 cod 9 -6.7
+1000 poptarts 2 -1.5
