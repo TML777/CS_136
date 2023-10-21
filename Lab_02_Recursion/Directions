@@ -1,0 +1,23 @@
+Objective: To gain experience in writing recursive functions
+
+Write a menu-driven program with the following options
+• to call a recursive function, which raises a number to the power(whole number)
+    - must work for negative as well as positive values.  
+    - ask a user for the values of the base and the power
+• to call a recursive function, that produce the sum of the squares for the first n terms of the series (1*1)+(2*2)+ 
+    (3*3)+…..(n*n)-[staring with 11
+    - output sample: 1+(2*2)+(3*3)= 14; output to be produced by the recursive function 
+    - positive numbers only
+    - ask a user for the number of terms
+• to call a recursive function to add the first n terms of the series (n*n)+...+(3*3)+(2*2)+(1*1) [ starting with n]
+    - output sample (3*3)+(2*2) +1 = 14; output to be produced by the recursive function o positive numbers only
+    - ask a user for the number of terms
+• to quit
+
+Notes:
+• Ask a user for the values of n and x
+• Validate all user inbuts
+• User should be able to run menu as many times as user wants
+• include your test data as comments in main
+• submit the hard copy upon approval
+• include your name and lab # as a comment
